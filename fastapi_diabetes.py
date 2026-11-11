@@ -39,10 +39,10 @@ def predict_robot(user : User) :
     message_gender = ['female' , 'male' , 'other']
 
     if gender[0] not in message_gender :
-        raise HTTPException(status_code=404,detail=f'please enter your gender : {message_gender}')
+        raise HTTPException(status_code=422,detail=f'please enter your gender : {message_gender}')
 
     if smoking_history[0] not in message_smoking :
-        raise HTTPException(status_code=404,detail=f'please enter your smoking history : {message_smoking}')
+        raise HTTPException(status_code=422,detail=f'please enter your smoking history : {message_smoking}')
 
     x_file_gender = [0 if i == 'female' else 1 if i == 'male' else 2 for i in gender]
     x_file_age = [0 if j < 18 else 1 if j >= 18 and j < 30 else 2 if j >= 30 and j < 40 else 3 if j >= 40 and j < 50 else 4 if j >= 50 and j < 60 else 5 if j >= 60 and j < 70 else 6 for j in age]
