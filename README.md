@@ -12,6 +12,24 @@
 ---
 
 ## 👨‍💻 About This Repository
+## 🙋‍♂️ Independent Project Development
+
+All projects in this repository have been independently developed by me, from initial dataset acquisition to final API implementation.
+
+I personally handled the complete development lifecycle of each project, including:
+
+- 📥 Finding and downloading datasets.
+- 🔍 Data exploration and analysis.
+- 🧹 Data cleaning and preprocessing.
+- ⚙️ Feature engineering and preparation.
+- 🧠 Designing, building, and training Machine Learning and Deep Learning models.
+- 📈 Evaluating model performance.
+- 💾 Saving and uploading trained models and datasets to GitHub.
+- ⚡ Developing FastAPI applications.
+- 🔗 Integrating trained models into REST APIs.
+- 🧪 Testing prediction endpoints and validating outputs.
+
+**These projects represent my own practical work, independent implementation, and hands-on experience in developing end-to-end Machine Learning applications.**
 
 Welcome to my Machine Learning and FastAPI projects repository!
 
